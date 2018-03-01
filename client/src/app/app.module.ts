@@ -7,11 +7,13 @@ import { AppComponent } from './app.component';
 import { CoreComponent } from './core/core.component';
 
 import { TestService } from './shared/test.service';
+import { LoginComponent } from './core/login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CoreComponent
+    CoreComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
